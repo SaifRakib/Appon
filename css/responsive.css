@@ -1,0 +1,109 @@
+@media(max-width:1200px) {}
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+@media(min-width:768px) and (max-width:991px) {}
+
+@media(min-width:576px) and (max-width:767px) {}
+
+@media (max-width:575px) {
+
+    /*  menu part start  */
+    .main_menu .img-fluid {
+        max-width: 75%;
+        height: auto;
+    }
+
+    #banner_part i {
+        display: none;
+
+    }
+
+    .main_menu button i {
+        color: #fff;
+    }
+
+    .main_menu .navbar-nav {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        line-height: 50px !important;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link:after {
+        display: none;
+    }
+
+    .main_menu ul li a.menu_button {
+        margin-bottom: 10px;
+        background: transparent;
+    }
+    /*  menu part end  */
+
+    /*  banner part start  */
+    .banner_text h1 {
+        font-size: 35px !important;
+    }
+
+    .banner_text h1 span {
+        font-size: 35px !important;
+    }
+
+    .banner_text h2 {
+        font-size: 17px !important;
+        padding-bottom: 15px !important;
+    }
+
+    .banner_text p {
+        padding-left: 20px;
+    }
+
+    .banner_text p.ban_p {
+        padding-top: 15px;
+    }
+
+    .banner_text a {
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+        width: 70%;
+    }
+    #banner_part ul.slick-dots li button {
+        display: none;
+    }
+
+    .banner_item {
+        padding: 140px 0 60px !important;
+    }
+
+
+    .main_menu ul li a.menu_button:hover {}
+
+    /*  banner part end  */
+    /*  about part start  */
+    #about_part {
+        padding: 50px 0 !important;
+    }
+
+    .about_img {
+        padding-top: 20px;
+    }
+
+    /*  about part end  */
+    
+    /*  awesome part start  */
+    .tabs_menu a h4,
+    .tabs_menu a p,
+    .tabs_menu a:after
+    {
+	display: none !important;
+}
+    .tab_text1 {
+	padding-top: 45px;
+}
+    /*  awesome part end  */
+    /*  menu part start  */
+
+    /*  menu part end  */
+}
